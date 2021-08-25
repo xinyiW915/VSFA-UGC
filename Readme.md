@@ -1,7 +1,7 @@
 # Quality Assessment of In-the-Wild Videos
 
 ## Description
-VSFA code for the following papers:
+VSFA code based on the following papers:
 
 - Dingquan Li, Tingting Jiang, and Ming Jiang. [Quality Assessment of In-the-Wild Videos](https://dl.acm.org/citation.cfm?doid=3343031.3351028). In Proceedings of the 27th ACM International Conference on Multimedia (MM ’19), October 21-25, 2019, Nice, France. [[arxiv version]](https://arxiv.org/abs/1908.00375)
 ![Framework]
