@@ -30,22 +30,6 @@ tensorboard --logdir=logs --port=6006 # in the server (host:port)
 ssh -p port -L 6006:localhost:6006 user@host # in your PC. See the visualization in your PC
 ```
 
-#### Reproduced results
-We set seeds for the random generators and re-run the experiments on the same ten splits, i.e., the first 10 splits (`exp_id=0~9`). The results may be still not the same among different version of PyTorch. See [randomness@Pytorch Docs](https://pytorch.org/docs/stable/notes/randomness.html)
-
-The reproduced overall results are better than the previous results published in the paper.
-We add learning rate scheduling in the updated code.
-Better hyper-parameters may be set, if you "look" at the training loss curve and the curves of validation results.
-
-The mean (std) values of the first ten index splits (60%:20%:20% train:val:test)
-
-|       | KoNViD-1k | CVD2014 | LIVE-Qualcomm |
-| ----  |    ----   |   ----  |      ----     |
-| SROCC | 0.7728 (0.0189) | 0.8698 (0.0368) | 0.7726 (0.0611) |
-| KROCC | 0.5784 (0.0194) | 0.6950 (0.0465) | 0.5871 (0.0620) | 
-| PLCC  | 0.7754 (0.0192) | 0.8678 (0.0315) | 0.7954 (0.0553) |
-| RMSE  | 0.4205 (0.0211) | 10.8572 (1.3518)| 7.5495 (0.7017) |
-
 ### Test Demo
 
 The model weights provided in `models/VSFA.pt` are the saved weights when running the 9-th split of KoNViD-1k.
@@ -65,5 +49,3 @@ source deactive
 
 Note: The codes can also be directly run on PyTorch 1.3.
 
-### Contact
-Dingquan Li, dingquanli AT pku DOT edu DOT cn.
