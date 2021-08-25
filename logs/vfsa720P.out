@@ -1,0 +1,6 @@
+Running on host compute462.bc4.acrc.priv
+Time is Sun Aug 22 18:55:38 BST 2021
+Directory is /mnt/storage/scratch/um20242/VSFA-master
+Slurm job ID is 4699934
+This jobs runs on the following machines:
+compute[462,469,475,481]
