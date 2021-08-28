@@ -1,4 +1,4 @@
-# Quality Assessment of In-the-Wild Videos
+# UGC video dataset test based on VSFA
 
 ## Description
 VSFA code based on the following papers:
