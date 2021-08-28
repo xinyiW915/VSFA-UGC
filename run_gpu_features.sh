@@ -4,7 +4,7 @@
 #SBATCH --partition gpu
 #SBATCH --gres=gpu:2
 #SBATCH --nodes=1
-#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-master/logs/cnn2160.out
+#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-UGC/logs/cnn2160.out
 #SBATCH --mem=80GB
 
 cd "${SLURM_SUBMIT_DIR}"
