@@ -147,24 +147,24 @@ if __name__ == "__main__":
 
     if args.database == 'YOUTUBE_UGC_360P':
         videos_dir = '/mnt/storage/home/um20242/scratch/ugc-dataset/360P/'
-        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-master/CNN_features_360P/'
-        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-master/data/YOUTUBE_UGC_360P_info.mat'
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_360P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_360P_info.mat'
     if args.database == 'YOUTUBE_UGC_480P':
         videos_dir = '/mnt/storage/home/um20242/scratch/ugc-dataset/480P/'
-        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-master/CNN_features_480P/'
-        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-master/data/YOUTUBE_UGC_480P_info.mat'
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_480P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_480P_info.mat'
     if args.database == 'YOUTUBE_UGC_720P':
         videos_dir = '/mnt/storage/home/um20242/scratch/ugc-dataset/720P/'
-        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-master/CNN_features_720P/'
-        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-master/data/YOUTUBE_UGC_720P_info.mat'
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_720P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_720P_info.mat'
     if args.database == 'YOUTUBE_UGC_1080P':
         videos_dir = '/mnt/storage/home/um20242/scratch/ugc-dataset/1080P/'
-        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-master/CNN_features_1080P/'
-        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-master/data/YOUTUBE_UGC_1080P_info.mat'
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_1080P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_1080P_info.mat'
     if args.database == 'YOUTUBE_UGC_2160P':
         videos_dir = '/mnt/storage/home/um20242/scratch/ugc-dataset/2160P/'
-        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-master/CNN_features_2160P/'
-        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-master/data/YOUTUBE_UGC_2160P_info.mat'
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_2160P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_2160P_info.mat'
 
     if not os.path.exists(features_dir):
         os.makedirs(features_dir)
