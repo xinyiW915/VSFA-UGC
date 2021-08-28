@@ -23,7 +23,7 @@ import datetime
 
 
 class VQADataset(Dataset):
-    def __init__(self, features_dir='/mnt/storage/home/um20242/scratch/VSFA-master/CNN_features/CNN_features_720P/', index=None, max_len=3000, feat_dim=4096, scale=1):
+    def __init__(self, features_dir='/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features/CNN_features_720P/', index=None, max_len=3000, feat_dim=4096, scale=1):
         super(VQADataset, self).__init__()
         self.features = np.zeros((len(index), max_len, feat_dim))
         self.length = np.zeros((len(index), 1))
@@ -147,8 +147,8 @@ if __name__ == "__main__":
     #     features_dir = 'CNN_features_KoNViD-1k/'  # features dir
     #     datainfo = 'data/KoNViD-1kinfo.mat'  # database info: video_names, scores; video format, width, height, index, ref_ids, max_len, etc.
     if args.database == 'YOUTUBE_UGC_720P':
-        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-master/CNN_features_720P/'
-        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-master/data/YOUTUBE_UGC_720P_info.mat'
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_720P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_720P_info.mat'
 
     print('EXP ID: {}'.format(args.exp_id))
     print(args.database)
