@@ -5,7 +5,7 @@
 #SBATCH --nodes=6
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
-#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-master/logs/vfsa720P.out
+#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-UGC/logs/vfsa720P.out
 #SBATCH --mem-per-cpu=80G
 
 cd "${SLURM_SUBMIT_DIR}"
