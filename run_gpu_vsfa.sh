@@ -5,7 +5,7 @@
 #SBATCH --gres=gpu:2
 #SBATCH --nodes=2
 #SBATCH --ntasks=4
-#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-master/logs/vfsa720P.out
+#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-UGC/logs/vfsa720P.out
 #SBATCH --mem=50GB
 
 cd "${SLURM_SUBMIT_DIR}"
@@ -34,4 +34,4 @@ CUDA_VISIBLE_DEVICES=2 python VSFA.py --database=YOUTUBE_UGC_720P --exp_id=0
 ## Deactivate virtualenv
 conda deactivate
 
-#/mnt/storage/home/um20242/scratch/VSFA-master/CNN_features_720P/2_resnet-50_res5c.npy
+#/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_720P/2_resnet-50_res5c.npy
