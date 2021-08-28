@@ -21,7 +21,7 @@ import time
 
 if __name__ == "__main__":
     parser = ArgumentParser(description='"Test Demo of VSFA')
-    parser.add_argument('--model_path', default='/mnt/storage/home/um20242/scratch/VSFA-master/models/VSFA.pt', type=str,
+    parser.add_argument('--model_path', default='/mnt/storage/home/um20242/scratch/VSFA-UGC/models/VSFA.pt', type=str,
                         help='model path (default: models/VSFA.pt)')
     parser.add_argument('--video_path', default='/mnt/storage/home/um20242/scratch/ugc-dataset/2160P/Gaming_2160P-2436.mkv', type=str,
                         help='video path (default: ./test.mp4)')
