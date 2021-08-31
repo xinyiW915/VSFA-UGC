@@ -1,11 +1,7 @@
 """Extracting Content-Aware Perceptual Features using Pre-Trained ResNet-50"""
-# Author: Dingquan Li
-# Email: dingquanli AT pku DOT edu DOT cn
-# Date: 2018/3/27
+# Modify: Xinyi Wang
+# Date: 2021/08/31
 #
-# CUDA_VISIBLE_DEVICES=0 python CNNfeatures.py --database=KoNViD-1k --frame_batch_size=64
-# CUDA_VISIBLE_DEVICES=1 python CNNfeatures.py --database=CVD2014 --frame_batch_size=32
-# CUDA_VISIBLE_DEVICES=0 python CNNfeatures.py --database=LIVE-Qualcomm --frame_batch_size=8
 
 import skvideo
 # skvideo.setFFmpegPath('/mnt/storage/software/apps/ffmpeg-4.3/bin/ffmpeg')
