@@ -1,0 +1,171 @@
+Running on host compute462.bc4.acrc.priv
+Time is Sun Aug 22 18:55:38 BST 2021
+Directory is /mnt/storage/scratch/um20242/VSFA-master
+Slurm job ID is 4699934
+This jobs runs on the following machines:
+compute[462,469,475,481]
+/mnt/storage/home/um20242/.conda/envs/reproducibleresearch/lib/python3.6/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx (Triggered internally at  /opt/conda/conda-bld/pytorch_1607370116979/work/c10/cuda/CUDAFunctions.cpp:100.)
+  return torch._C._cuda_getDeviceCount() > 0
+/mnt/storage/home/um20242/.conda/envs/reproducibleresearch/lib/python3.6/site-packages/numpy/core/_asarray.py:136: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order, subok=True)
+EXP ID: 0
+YOUTUBE_UGC_720P
+VSFA
+[4.054 3.638 3.942 3.876 4.318 4.283 3.73  3.615 3.575 4.249 3.862 4.148
+ 3.846 4.396 3.522 4.522 4.422 2.197 3.862 3.589 4.124 2.618 2.52  3.744
+ 2.805 4.059 3.224 3.412 3.414 3.496 2.317 2.834 2.991 3.316 2.988 3.52
+ 3.145 2.798 2.348 4.089 3.263 3.683 4.056 4.01  3.252 2.952 4.327 3.826
+ 3.145 3.11  3.855 4.124 4.29  3.567 3.62  4.067 4.281 4.023 4.396 3.813
+ 3.715 3.967 2.486 3.762 4.13  4.315 4.111 4.364 3.938 3.3   2.838 3.643
+ 2.814 4.429 3.072 2.536 3.62  3.485 3.947 3.688 3.732 2.263 3.761 3.674
+ 4.074 3.812 4.082 3.616 3.58  3.541 3.116 2.569 3.958 4.233 3.39  3.852
+ 3.552 3.839 4.106 3.479 3.743 3.579 4.295 3.586 4.262 3.846 3.043 4.163
+ 3.869 4.246 4.042 3.319 3.721 3.525 2.436 3.45  3.285 4.382 3.304 3.098
+ 3.112 4.019 4.592 3.605 3.825 3.045 3.026 3.717 3.93  4.199 3.839 4.066
+ 2.816 4.315 3.939 2.803 2.671 2.877 4.415 4.196 1.907 4.365 2.382 2.988
+ 4.378 3.6   4.135 4.499 4.173 3.756 3.242 2.471 4.246 3.848 3.536 3.49
+ 3.893 4.272 3.494 4.11  3.667 3.017 3.716 3.454 4.368 4.377 4.483 2.866
+ 4.48  4.522 2.996 3.987 3.547 4.297 4.357 4.007 4.528 4.145 2.803 4.434
+ 4.41  4.061 4.223 4.28  3.863 3.942 3.591 3.789 4.16  3.884 3.978 3.136
+ 3.18  4.483 2.985 3.165 3.802 3.011 3.903 4.105 3.372 4.555 3.205 4.333
+ 4.677 3.685 4.238 2.965 3.201 3.878 3.882 3.783 3.566 3.238 4.346 4.299
+ 4.324 2.515 3.839 3.213 4.015 4.292 4.396 3.71  2.934 4.522 4.269 3.532
+ 3.523 3.602 3.199 4.261 3.711 4.107 4.442 4.068 2.979 4.023 4.176 4.261
+ 4.271 3.603 4.502 4.302 3.605 3.972 3.805 3.604 3.816 3.872 3.128 4.316
+ 3.918 3.7   4.365 3.667 4.047 3.882 2.743 2.794 4.211 4.438 3.783 4.335
+ 3.776]
+EXP ID=0: Update best model using best_val_criterion in epoch 0
+Val results: val loss=0.1546, SROCC=-0.0491, KROCC=-0.0340, PLCC=-0.0525, RMSE=0.9603
+Test results: test loss=0.1600, SROCC=0.1259, KROCC=0.0871, PLCC=0.1149, RMSE=0.9489
+EXP ID=0: Update best model using best_val_criterion in epoch 4
+Val results: val loss=0.1173, SROCC=-0.0374, KROCC=-0.0294, PLCC=-0.0072, RMSE=0.7347
+Test results: test loss=0.1369, SROCC=0.1963, KROCC=0.1277, PLCC=0.1444, RMSE=0.7931
+EXP ID=0: Update best model using best_val_criterion in epoch 5
+Val results: val loss=0.1091, SROCC=-0.0114, KROCC=-0.0159, PLCC=0.0255, RMSE=0.6841
+Test results: test loss=0.1333, SROCC=0.2362, KROCC=0.1495, PLCC=0.1627, RMSE=0.7603
+EXP ID=0: Update best model using best_val_criterion in epoch 6
+Val results: val loss=0.1022, SROCC=0.0265, KROCC=0.0098, PLCC=0.0602, RMSE=0.6417
+Test results: test loss=0.1287, SROCC=0.2743, KROCC=0.1684, PLCC=0.1831, RMSE=0.7312
+EXP ID=0: Update best model using best_val_criterion in epoch 7
+Val results: val loss=0.0967, SROCC=0.0894, KROCC=0.0355, PLCC=0.0935, RMSE=0.6141
+Test results: test loss=0.1229, SROCC=0.3095, KROCC=0.1829, PLCC=0.2116, RMSE=0.7097
+EXP ID=0: Update best model using best_val_criterion in epoch 8
+Val results: val loss=0.0919, SROCC=0.1431, KROCC=0.0823, PLCC=0.1367, RMSE=0.5813
+Test results: test loss=0.1209, SROCC=0.3498, KROCC=0.2032, PLCC=0.2369, RMSE=0.6902
+EXP ID=0: Update best model using best_val_criterion in epoch 9
+Val results: val loss=0.0890, SROCC=0.1626, KROCC=0.0989, PLCC=0.1651, RMSE=0.5690
+Test results: test loss=0.1178, SROCC=0.3904, KROCC=0.2322, PLCC=0.2607, RMSE=0.6872
+EXP ID=0: Update best model using best_val_criterion in epoch 10
+Val results: val loss=0.0875, SROCC=0.1809, KROCC=0.1110, PLCC=0.2124, RMSE=0.5414
+Test results: test loss=0.1188, SROCC=0.3896, KROCC=0.2380, PLCC=0.2804, RMSE=0.6680
+EXP ID=0: Update best model using best_val_criterion in epoch 11
+Val results: val loss=0.0834, SROCC=0.1922, KROCC=0.1170, PLCC=0.2208, RMSE=0.5340
+Test results: test loss=0.1139, SROCC=0.3803, KROCC=0.2380, PLCC=0.2958, RMSE=0.6767
+EXP ID=0: Update best model using best_val_criterion in epoch 12
+Val results: val loss=0.0843, SROCC=0.2303, KROCC=0.1472, PLCC=0.2596, RMSE=0.5169
+Test results: test loss=0.1171, SROCC=0.3722, KROCC=0.2409, PLCC=0.3090, RMSE=0.6555
+EXP ID=0: Update best model using best_val_criterion in epoch 13
+Val results: val loss=0.0802, SROCC=0.2475, KROCC=0.1623, PLCC=0.2682, RMSE=0.5056
+Test results: test loss=0.1125, SROCC=0.3931, KROCC=0.2540, PLCC=0.3261, RMSE=0.6615
+EXP ID=0: Update best model using best_val_criterion in epoch 14
+Val results: val loss=0.0805, SROCC=0.2497, KROCC=0.1699, PLCC=0.2865, RMSE=0.5059
+Test results: test loss=0.1112, SROCC=0.3909, KROCC=0.2511, PLCC=0.3395, RMSE=0.6706
+EXP ID=0: Update best model using best_val_criterion in epoch 15
+Val results: val loss=0.0774, SROCC=0.2707, KROCC=0.1835, PLCC=0.3194, RMSE=0.4847
+Test results: test loss=0.1112, SROCC=0.4053, KROCC=0.2685, PLCC=0.3525, RMSE=0.6487
+EXP ID=0: Update best model using best_val_criterion in epoch 16
+Val results: val loss=0.0769, SROCC=0.2854, KROCC=0.1925, PLCC=0.3339, RMSE=0.4819
+Test results: test loss=0.1108, SROCC=0.4219, KROCC=0.2816, PLCC=0.3649, RMSE=0.6477
+EXP ID=0: Update best model using best_val_criterion in epoch 17
+Val results: val loss=0.0811, SROCC=0.3175, KROCC=0.2152, PLCC=0.3661, RMSE=0.4879
+Test results: test loss=0.1137, SROCC=0.4348, KROCC=0.2874, PLCC=0.3754, RMSE=0.6350
+EXP ID=0: Update best model using best_val_criterion in epoch 19
+Val results: val loss=0.0800, SROCC=0.3199, KROCC=0.2197, PLCC=0.3534, RMSE=0.4979
+Test results: test loss=0.1094, SROCC=0.4489, KROCC=0.3004, PLCC=0.3926, RMSE=0.6701
+EXP ID=0: Update best model using best_val_criterion in epoch 20
+Val results: val loss=0.0799, SROCC=0.3414, KROCC=0.2318, PLCC=0.3930, RMSE=0.4775
+Test results: test loss=0.1116, SROCC=0.4547, KROCC=0.3033, PLCC=0.3975, RMSE=0.6268
+EXP ID=0: Update best model using best_val_criterion in epoch 22
+Val results: val loss=0.0750, SROCC=0.3490, KROCC=0.2348, PLCC=0.3989, RMSE=0.4622
+Test results: test loss=0.1081, SROCC=0.4591, KROCC=0.3062, PLCC=0.4097, RMSE=0.6244
+EXP ID=0: Update best model using best_val_criterion in epoch 23
+Val results: val loss=0.0763, SROCC=0.3638, KROCC=0.2514, PLCC=0.4101, RMSE=0.4644
+Test results: test loss=0.1081, SROCC=0.4781, KROCC=0.3193, PLCC=0.4196, RMSE=0.6179
+EXP ID=0: Update best model using best_val_criterion in epoch 24
+Val results: val loss=0.0726, SROCC=0.3662, KROCC=0.2499, PLCC=0.4082, RMSE=0.4573
+Test results: test loss=0.1063, SROCC=0.5023, KROCC=0.3338, PLCC=0.4306, RMSE=0.6202
+EXP ID=0: Update best model using best_val_criterion in epoch 25
+Val results: val loss=0.0829, SROCC=0.4032, KROCC=0.2786, PLCC=0.4343, RMSE=0.4797
+Test results: test loss=0.1101, SROCC=0.5013, KROCC=0.3280, PLCC=0.4387, RMSE=0.6116
+EXP ID=0: Update best model using best_val_criterion in epoch 27
+Val results: val loss=0.0717, SROCC=0.4038, KROCC=0.2801, PLCC=0.4323, RMSE=0.4486
+Test results: test loss=0.1038, SROCC=0.5098, KROCC=0.3324, PLCC=0.4513, RMSE=0.6178
+EXP ID=0: Update best model using best_val_criterion in epoch 30
+Val results: val loss=0.0716, SROCC=0.4100, KROCC=0.2861, PLCC=0.4459, RMSE=0.4438
+Test results: test loss=0.1041, SROCC=0.5125, KROCC=0.3454, PLCC=0.4567, RMSE=0.6079
+EXP ID=0: Update best model using best_val_criterion in epoch 31
+Val results: val loss=0.0775, SROCC=0.4151, KROCC=0.2892, PLCC=0.4575, RMSE=0.4560
+Test results: test loss=0.1063, SROCC=0.5161, KROCC=0.3440, PLCC=0.4580, RMSE=0.6037
+EXP ID=0: Update best model using best_val_criterion in epoch 32
+Val results: val loss=0.0789, SROCC=0.4263, KROCC=0.3012, PLCC=0.4695, RMSE=0.4588
+Test results: test loss=0.1062, SROCC=0.5228, KROCC=0.3454, PLCC=0.4640, RMSE=0.5999
+EXP ID=0: Update best model using best_val_criterion in epoch 33
+Val results: val loss=0.0702, SROCC=0.4279, KROCC=0.3028, PLCC=0.4553, RMSE=0.4373
+Test results: test loss=0.1029, SROCC=0.5251, KROCC=0.3440, PLCC=0.4620, RMSE=0.6073
+EXP ID=0: Update best model using best_val_criterion in epoch 40
+Val results: val loss=0.0708, SROCC=0.4436, KROCC=0.3133, PLCC=0.4620, RMSE=0.4410
+Test results: test loss=0.1019, SROCC=0.5339, KROCC=0.3512, PLCC=0.4769, RMSE=0.6179
+EXP ID=0: Update best model using best_val_criterion in epoch 41
+Val results: val loss=0.0714, SROCC=0.4448, KROCC=0.3118, PLCC=0.4643, RMSE=0.4418
+Test results: test loss=0.1014, SROCC=0.5394, KROCC=0.3512, PLCC=0.4836, RMSE=0.6178
+EXP ID=0: Update best model using best_val_criterion in epoch 46
+Val results: val loss=0.0691, SROCC=0.4495, KROCC=0.3103, PLCC=0.4759, RMSE=0.4294
+Test results: test loss=0.1005, SROCC=0.5252, KROCC=0.3585, PLCC=0.4809, RMSE=0.6061
+EXP ID=0: Update best model using best_val_criterion in epoch 54
+Val results: val loss=0.0747, SROCC=0.4541, KROCC=0.3103, PLCC=0.4751, RMSE=0.4419
+Test results: test loss=0.0999, SROCC=0.5320, KROCC=0.3687, PLCC=0.4928, RMSE=0.5885
+EXP ID=0: Update best model using best_val_criterion in epoch 56
+Val results: val loss=0.0697, SROCC=0.4594, KROCC=0.3133, PLCC=0.4742, RMSE=0.4321
+Test results: test loss=0.0996, SROCC=0.5410, KROCC=0.3716, PLCC=0.4969, RMSE=0.6015
+EXP ID=0: Update best model using best_val_criterion in epoch 62
+Val results: val loss=0.0710, SROCC=0.4605, KROCC=0.3194, PLCC=0.4775, RMSE=0.4316
+Test results: test loss=0.0981, SROCC=0.5433, KROCC=0.3672, PLCC=0.5005, RMSE=0.5866
+EXP ID=0: Update best model using best_val_criterion in epoch 66
+Val results: val loss=0.0685, SROCC=0.4659, KROCC=0.3239, PLCC=0.4843, RMSE=0.4251
+Test results: test loss=0.0986, SROCC=0.5234, KROCC=0.3541, PLCC=0.4973, RMSE=0.5944
+EXP ID=0: Update best model using best_val_criterion in epoch 75
+Val results: val loss=0.0757, SROCC=0.4726, KROCC=0.3375, PLCC=0.5024, RMSE=0.4391
+Test results: test loss=0.0983, SROCC=0.5382, KROCC=0.3701, PLCC=0.5019, RMSE=0.5836
+EXP ID=0: Update best model using best_val_criterion in epoch 76
+Val results: val loss=0.0737, SROCC=0.4856, KROCC=0.3435, PLCC=0.5012, RMSE=0.4324
+Test results: test loss=0.0980, SROCC=0.5410, KROCC=0.3716, PLCC=0.5023, RMSE=0.5842
+EXP ID=0: Update best model using best_val_criterion in epoch 197
+Val results: val loss=0.0697, SROCC=0.4894, KROCC=0.3269, PLCC=0.4982, RMSE=0.4317
+Test results: test loss=0.0979, SROCC=0.5752, KROCC=0.3890, PLCC=0.5554, RMSE=0.5870
+EXP ID=0: Update best model using best_val_criterion in epoch 235
+Val results: val loss=0.0685, SROCC=0.4912, KROCC=0.3420, PLCC=0.5090, RMSE=0.4235
+Test results: test loss=0.0951, SROCC=0.5802, KROCC=0.3962, PLCC=0.5673, RMSE=0.5667
+EXP ID=0: Update best model using best_val_criterion in epoch 243
+Val results: val loss=0.0687, SROCC=0.4918, KROCC=0.3465, PLCC=0.5106, RMSE=0.4244
+Test results: test loss=0.0962, SROCC=0.5810, KROCC=0.3919, PLCC=0.5718, RMSE=0.5706
+EXP ID=0: Update best model using best_val_criterion in epoch 253
+Val results: val loss=0.0698, SROCC=0.4925, KROCC=0.3420, PLCC=0.5054, RMSE=0.4275
+Test results: test loss=0.0968, SROCC=0.5972, KROCC=0.4035, PLCC=0.5748, RMSE=0.5692
+EXP ID=0: Update best model using best_val_criterion in epoch 257
+Val results: val loss=0.0684, SROCC=0.4964, KROCC=0.3481, PLCC=0.5133, RMSE=0.4249
+Test results: test loss=0.0960, SROCC=0.5752, KROCC=0.3846, PLCC=0.5708, RMSE=0.5674
+y_pred: [4.18559655 3.42424584 3.99373553 4.60233483 4.24459006 4.78647278
+ 3.12865444 3.40942276 3.42670126 3.40368621 3.18496421 3.38567342
+ 3.75209216 3.17965837 3.89466815 3.93751608 3.75786244 3.06484238
+ 3.83334858 3.42073249 3.65101958 4.42849579 3.97702377 3.6273391
+ 2.97354212 3.59384784 4.10666396 3.86268142 3.43703697 4.30357492
+ 2.77271554 3.27814507 3.60728153 3.26933312 3.78411764 3.88573605
+ 3.63933434 3.62334292 3.60147139 4.25326652 4.3714562  4.05372871
+ 3.88088181 4.21814111 4.14031245 3.21120464 4.12017459 4.87196458
+ 3.71786634 2.90635163 3.00975362 3.62660454 3.99519518]
+y_test [4.054 3.638 3.876 3.575 4.249 4.148 3.846 3.522 2.197 3.589 2.52  3.744
+ 3.52  2.348 4.281 4.13  4.315 2.838 2.814 3.072 2.263 4.074 3.39  3.525
+ 3.45  4.382 4.019 3.825 3.045 4.066 2.671 1.907 4.246 3.848 4.272 4.483
+ 2.866 3.547 3.978 3.903 3.205 3.685 4.238 4.346 4.292 2.934 4.522 4.502
+ 3.605 3.128 2.794 4.438 3.783]
+Test results: test loss=0.0960, SROCC=0.5752, KROCC=0.3846, PLCC=0.5708, RMSE=0.5674

@@ -1,0 +1,21 @@
+Running on host compute497.bc4.acrc.priv
+Time is Sat Aug 28 00:15:50 BST 2021
+Directory is /mnt/storage/scratch/um20242/VSFA-master/code
+Slurm job ID is 4740091
+This jobs runs on the following machines:
+compute[497,499,503,506]
+/mnt/storage/home/um20242/.conda/envs/reproducibleresearch/lib/python3.6/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx (Triggered internally at  /opt/conda/conda-bld/pytorch_1607370116979/work/c10/cuda/CUDAFunctions.cpp:100.)
+  return torch._C._cuda_getDeviceCount() > 0
+.................
+RGB
+Animation_2160P-41dc.mkv
+Video 0: length 299
+Animation_2160P-6f3b.mkv
+Video 1: length 479
+Gaming_2160P-2436.mkv
+Traceback (most recent call last):
+  File "CNNfeaturesUGC.py", line 203, in <module>
+    current_data = dataset[i]
+  File "CNNfeaturesUGC.py", line 64, in __getitem__
+    transformed_video = torch.zeros([video_length, video_channel,  video_height, video_width])
+RuntimeError: [enforce fail at CPUAllocator.cpp:65] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 119339827200 bytes. Error code 12 (Cannot allocate memory)

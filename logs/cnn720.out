@@ -1,0 +1,538 @@
+Running on host compute085.bc4.acrc.priv
+Time is Fri Aug 20 09:20:03 BST 2021
+Directory is /mnt/storage/scratch/um20242/VSFA-master/code
+Slurm job ID is 4675750
+This jobs runs on the following machines:
+compute[085,091,108,114,214,341,343,345]
+.................
+RGB
+Animation_720P-0116.mkv
+Video 0: length 480
+Animation_720P-01b3.mkv
+Video 1: length 500
+Animation_720P-06a6.mkv
+Video 2: length 600
+Animation_720P-0acc.mkv
+Video 3: length 480
+Animation_720P-13b7.mkv
+Video 4: length 599
+Animation_720P-1a6d.mkv
+Video 5: length 500
+Animation_720P-2525.mkv
+Video 6: length 500
+Animation_720P-2abf.mkv
+Video 7: length 500
+Animation_720P-3adc.mkv
+Video 8: length 200
+Animation_720P-412a.mkv
+Video 9: length 479
+Animation_720P-41cf.mkv
+Video 10: length 499
+Animation_720P-41d6.mkv
+Video 11: length 600
+Animation_720P-4268.mkv
+Video 12: length 600
+Animation_720P-431c.mkv
+Video 13: length 499
+Animation_720P-57d9.mkv
+Video 14: length 599
+Animation_720P-620f.mkv
+Video 15: length 500
+Animation_720P-6372.mkv
+Video 16: length 600
+Animation_720P-79ee.mkv
+Video 17: length 480
+Animation_720P-7b29.mkv
+Video 18: length 480
+Animation_720P-7e7d.mkv
+Video 19: length 599
+Animation_720P-7ff2.mkv
+Video 20: length 599
+CoverSong_720P-014c.mkv
+Video 21: length 600
+CoverSong_720P-0239.mkv
+Video 22: length 600
+CoverSong_720P-05d6.mkv
+Video 23: length 599
+CoverSong_720P-10f1.mkv
+Video 24: length 599
+CoverSong_720P-1393.mkv
+Video 25: length 600
+CoverSong_720P-2d05.mkv
+Video 26: length 499
+CoverSong_720P-3dca.mkv
+Video 27: length 480
+CoverSong_720P-4006.mkv
+Video 28: length 500
+CoverSong_720P-449f.mkv
+Video 29: length 599
+CoverSong_720P-5689.mkv
+Video 30: length 600
+CoverSong_720P-5ba2.mkv
+Video 31: length 599
+CoverSong_720P-60d3.mkv
+Video 32: length 603
+CoverSong_720P-6626.mkv
+Video 33: length 300
+CoverSong_720P-6b8c.mkv
+Video 34: length 500
+CoverSong_720P-6d6a.mkv
+Video 35: length 600
+CoverSong_720P-6d81.mkv
+Video 36: length 599
+CoverSong_720P-7360.mkv
+Video 37: length 599
+CoverSong_720P-7539.mkv
+Video 38: length 480
+Gaming_720P-0fba.mkv
+Video 39: length 1200
+Gaming_720P-0fdb.mkv
+Video 40: length 600
+Gaming_720P-1035.mkv
+Video 41: length 599
+Gaming_720P-103a.mkv
+Video 42: length 599
+Gaming_720P-1cbb.mkv
+Video 43: length 599
+Gaming_720P-221d.mkv
+Video 44: length 406
+Gaming_720P-25aa.mkv
+Video 45: length 600
+Gaming_720P-2dbe.mkv
+Video 46: length 599
+Gaming_720P-312f.mkv
+Video 47: length 1200
+Gaming_720P-324d.mkv
+Video 48: length 600
+Gaming_720P-3524.mkv
+Video 49: length 599
+Gaming_720P-40b2.mkv
+Video 50: length 599
+Gaming_720P-469a.mkv
+Video 51: length 1200
+Gaming_720P-4813.mkv
+Video 52: length 1199
+Gaming_720P-493e.mkv
+Video 53: length 600
+Gaming_720P-4cda.mkv
+Video 54: length 600
+Gaming_720P-5973.mkv
+Video 55: length 599
+Gaming_720P-5ba2.mkv
+Video 56: length 599
+Gaming_720P-6403.mkv
+Video 57: length 1199
+Gaming_720P-64b0.mkv
+Video 58: length 600
+Gaming_720P-6625.mkv
+Video 59: length 600
+Gaming_720P-6658.mkv
+Video 60: length 599
+Gaming_720P-6a45.mkv
+Video 61: length 600
+Gaming_720P-7afd.mkv
+Video 62: length 599
+HowTo_720P-017a.mkv
+Video 63: length 600
+HowTo_720P-06eb.mkv
+Video 64: length 600
+HowTo_720P-0a67.mkv
+Video 65: length 599
+HowTo_720P-0b01.mkv
+Video 66: length 480
+HowTo_720P-0c47.mkv
+Video 67: length 500
+HowTo_720P-111e.mkv
+Video 68: length 599
+HowTo_720P-12f7.mkv
+Video 69: length 1200
+HowTo_720P-21c6.mkv
+Video 70: length 599
+HowTo_720P-269e.mkv
+Video 71: length 400
+HowTo_720P-2cc6.mkv
+Video 72: length 599
+HowTo_720P-37d0.mkv
+Video 73: length 600
+HowTo_720P-3813.mkv
+Video 74: length 499
+HowTo_720P-3a5d.mkv
+Video 75: length 600
+HowTo_720P-479b.mkv
+Video 76: length 599
+HowTo_720P-483c.mkv
+Video 77: length 500
+HowTo_720P-4d55.mkv
+Video 78: length 599
+HowTo_720P-4d9e.mkv
+Video 79: length 599
+HowTo_720P-6323.mkv
+Video 80: length 600
+HowTo_720P-6791.mkv
+Video 81: length 599
+HowTo_720P-7782.mkv
+Video 82: length 600
+HowTo_720P-7878.mkv
+Video 83: length 599
+HowTo_720P-7c38.mkv
+Video 84: length 600
+Lecture_720P-003a.mkv
+Video 85: length 479
+Lecture_720P-07e0.mkv
+Video 86: length 600
+Lecture_720P-094d.mkv
+Video 87: length 399
+Lecture_720P-0f64.mkv
+Video 88: length 480
+Lecture_720P-1033.mkv
+Video 89: length 499
+Lecture_720P-10bc.mkv
+Video 90: length 437
+Lecture_720P-11e7.mkv
+Video 91: length 499
+Lecture_720P-1e62.mkv
+Video 92: length 600
+Lecture_720P-1f22.mkv
+Video 93: length 599
+Lecture_720P-2442.mkv
+Video 94: length 480
+Lecture_720P-2b0f.mkv
+Video 95: length 64
+Lecture_720P-2f38.mkv
+Video 96: length 600
+Lecture_720P-2f8c.mkv
+Video 97: length 599
+Lecture_720P-3b7f.mkv
+Video 98: length 600
+Lecture_720P-3f9f.mkv
+Video 99: length 599
+Lecture_720P-4c87.mkv
+Video 100: length 600
+Lecture_720P-50b9.mkv
+Video 101: length 399
+Lecture_720P-5120.mkv
+Video 102: length 600
+Lecture_720P-53a1.mkv
+Video 103: length 599
+Lecture_720P-5725.mkv
+Video 104: length 500
+Lecture_720P-5c7e.mkv
+Video 105: length 480
+Lecture_720P-6016.mkv
+Video 106: length 599
+Lecture_720P-6951.mkv
+Video 107: length 600
+Lecture_720P-7189.mkv
+Video 108: length 500
+Lecture_720P-7e40.mkv
+Video 109: length 599
+LiveMusic_720P-0cd5.mkv
+Video 110: length 479
+LiveMusic_720P-0d9f.mkv
+Video 111: length 500
+LiveMusic_720P-2620.mkv
+Video 112: length 600
+LiveMusic_720P-267b.mkv
+Video 113: length 500
+LiveMusic_720P-289b.mkv
+Video 114: length 1199
+LiveMusic_720P-3320.mkv
+Video 115: length 599
+LiveMusic_720P-4ae2.mkv
+Video 116: length 500
+LiveMusic_720P-58db.mkv
+Video 117: length 500
+LiveMusic_720P-6343.mkv
+Video 118: length 600
+LiveMusic_720P-6452.mkv
+Video 119: length 600
+LiveMusic_720P-653e.mkv
+Video 120: length 500
+LiveMusic_720P-65f6.mkv
+Video 121: length 500
+LiveMusic_720P-66df.mkv
+Video 122: length 598
+LiveMusic_720P-71c5.mkv
+Video 123: length 499
+LyricVideo_720P-068d.mkv
+Video 124: length 600
+LyricVideo_720P-0940.mkv
+Video 125: length 600
+LyricVideo_720P-09ed.mkv
+Video 126: length 599
+LyricVideo_720P-0ae4.mkv
+Video 127: length 600
+LyricVideo_720P-1c89.mkv
+Video 128: length 600
+LyricVideo_720P-2d24.mkv
+Video 129: length 599
+LyricVideo_720P-36fb.mkv
+Video 130: length 600
+LyricVideo_720P-4253.mkv
+Video 131: length 479
+LyricVideo_720P-47a9.mkv
+Video 132: length 479
+LyricVideo_720P-59ed.mkv
+Video 133: length 1000
+LyricVideo_720P-5d3a.mkv
+Video 134: length 600
+LyricVideo_720P-6f0c.mkv
+Video 135: length 600
+LyricVideo_720P-6fc9.mkv
+Video 136: length 599
+LyricVideo_720P-739a.mkv
+Video 137: length 500
+LyricVideo_720P-74a0.mkv
+Video 138: length 600
+LyricVideo_720P-7f44.mkv
+Video 139: length 500
+MusicVideo_720P-0355.mkv
+Video 140: length 600
+MusicVideo_720P-0752.mkv
+Video 141: length 480
+MusicVideo_720P-14f0.mkv
+Video 142: length 600
+MusicVideo_720P-2d7d.mkv
+Video 143: length 1200
+MusicVideo_720P-3698.mkv
+Video 144: length 599
+MusicVideo_720P-3b11.mkv
+Video 145: length 599
+MusicVideo_720P-3c4c.mkv
+Video 146: length 499
+MusicVideo_720P-44c1.mkv
+Video 147: length 480
+MusicVideo_720P-4895.mkv
+Video 148: length 1198
+MusicVideo_720P-4ad2.mkv
+Video 149: length 600
+MusicVideo_720P-575d.mkv
+Video 150: length 599
+MusicVideo_720P-5c9c.mkv
+Video 151: length 1000
+MusicVideo_720P-62df.mkv
+Video 152: length 499
+MusicVideo_720P-734f.mkv
+Video 153: length 480
+MusicVideo_720P-7bcf.mkv
+Video 154: length 1198
+NewsClip_720P-04ba.mkv
+Video 155: length 499
+NewsClip_720P-0c81.mkv
+Video 156: length 499
+NewsClip_720P-1971.mkv
+Video 157: length 600
+NewsClip_720P-2182.mkv
+Video 158: length 600
+NewsClip_720P-23e0.mkv
+Video 159: length 500
+NewsClip_720P-2882.mkv
+Video 160: length 500
+NewsClip_720P-35d9.mkv
+Video 161: length 499
+NewsClip_720P-37f7.mkv
+Video 162: length 599
+NewsClip_720P-4603.mkv
+Video 163: length 499
+NewsClip_720P-4e87.mkv
+Video 164: length 600
+NewsClip_720P-5564.mkv
+Video 165: length 499
+NewsClip_720P-5787.mkv
+Video 166: length 600
+NewsClip_720P-579b.mkv
+Video 167: length 599
+NewsClip_720P-5d89.mkv
+Video 168: length 594
+NewsClip_720P-6016.mkv
+Video 169: length 499
+NewsClip_720P-6106.mkv
+Video 170: length 599
+NewsClip_720P-672c.mkv
+Video 171: length 499
+NewsClip_720P-6a19.mkv
+Video 172: length 600
+NewsClip_720P-6cde.mkv
+Video 173: length 479
+NewsClip_720P-72d2.mkv
+Video 174: length 600
+NewsClip_720P-739b.mkv
+Video 175: length 600
+NewsClip_720P-7745.mkv
+Video 176: length 600
+NewsClip_720P-7b7e.mkv
+Video 177: length 599
+NewsClip_720P-7b97.mkv
+Video 178: length 600
+NewsClip_720P-7c67.mkv
+Video 179: length 599
+NewsClip_720P-7e56.mkv
+Video 180: length 599
+Sports_720P-00a1.mkv
+Video 181: length 960
+Sports_720P-0104.mkv
+Video 182: length 499
+Sports_720P-058f.mkv
+Video 183: length 2398
+Sports_720P-07d0.mkv
+Video 184: length 600
+Sports_720P-0b9e.mkv
+Video 185: length 999
+Sports_720P-17fb.mkv
+Video 186: length 597
+Sports_720P-2191.mkv
+Video 187: length 1198
+Sports_720P-2234.mkv
+Video 188: length 599
+Sports_720P-2632.mkv
+Video 189: length 500
+Sports_720P-2c06.mkv
+Video 190: length 499
+Sports_720P-2c80.mkv
+Video 191: length 595
+Sports_720P-3072.mkv
+Video 192: length 599
+Sports_720P-3338.mkv
+Video 193: length 480
+Sports_720P-33c6.mkv
+Video 194: length 599
+Sports_720P-38a1.mkv
+Video 195: length 600
+Sports_720P-3eb4.mkv
+Video 196: length 500
+Sports_720P-3ffe.mkv
+Video 197: length 600
+Sports_720P-4b69.mkv
+Video 198: length 599
+Sports_720P-4c6f.mkv
+Video 199: length 500
+Sports_720P-50cf.mkv
+Video 200: length 480
+Sports_720P-531c.mkv
+Video 201: length 599
+Sports_720P-5833.mkv
+Video 202: length 599
+Sports_720P-5ae1.mkv
+Video 203: length 600
+Sports_720P-5bfd.mkv
+Video 204: length 960
+Sports_720P-5e39.mkv
+Video 205: length 600
+Sports_720P-5ea4.mkv
+Video 206: length 1000
+Sports_720P-62ba.mkv
+Video 207: length 600
+Sports_720P-675b.mkv
+Video 208: length 499
+Sports_720P-69a0.mkv
+Video 209: length 600
+Sports_720P-6bb7.mkv
+Video 210: length 499
+Sports_720P-6d04.mkv
+Video 211: length 1199
+Sports_720P-7ba7.mkv
+Video 212: length 600
+TelevisionClip_720P-1862.mkv
+Video 213: length 599
+TelevisionClip_720P-19de.mkv
+Video 214: length 500
+TelevisionClip_720P-1b61.mkv
+Video 215: length 600
+TelevisionClip_720P-31ce.mkv
+Video 216: length 479
+TelevisionClip_720P-3f4c.mkv
+Video 217: length 424
+TelevisionClip_720P-44d1.mkv
+Video 218: length 600
+TelevisionClip_720P-4af1.mkv
+Video 219: length 599
+TelevisionClip_720P-4edb.mkv
+Video 220: length 480
+TelevisionClip_720P-5e93.mkv
+Video 221: length 499
+TelevisionClip_720P-7c06.mkv
+Video 222: length 600
+VerticalVideo_720P-0750.mkv
+Video 223: length 600
+VerticalVideo_720P-0dac.mkv
+Video 224: length 599
+VerticalVideo_720P-0f61.mkv
+Video 225: length 1200
+VerticalVideo_720P-19fa.mkv
+Video 226: length 599
+VerticalVideo_720P-1ada.mkv
+Video 227: length 598
+VerticalVideo_720P-2efc.mkv
+Video 228: length 563
+VerticalVideo_720P-3df7.mkv
+Video 229: length 599
+VerticalVideo_720P-42f2.mkv
+Video 230: length 563
+VerticalVideo_720P-44de.mkv
+Video 231: length 388
+VerticalVideo_720P-456c.mkv
+Video 232: length 600
+VerticalVideo_720P-4730.mkv
+Video 233: length 600
+VerticalVideo_720P-4ca7.mkv
+Video 234: length 1200
+VerticalVideo_720P-57eb.mkv
+Video 235: length 600
+VerticalVideo_720P-6580.mkv
+Video 236: length 181
+VerticalVideo_720P-665d.mkv
+Video 237: length 594
+VerticalVideo_720P-669d.mkv
+Video 238: length 599
+VerticalVideo_720P-6bf7.mkv
+Video 239: length 602
+VerticalVideo_720P-7517.mkv
+Video 240: length 500
+VerticalVideo_720P-7859.mkv
+Video 241: length 600
+VerticalVideo_720P-7c1d.mkv
+Video 242: length 657
+Vlog_720P-033a.mkv
+Video 243: length 500
+Vlog_720P-03d5.mkv
+Video 244: length 601
+Vlog_720P-03f9.mkv
+Video 245: length 479
+Vlog_720P-0d79.mkv
+Video 246: length 599
+Vlog_720P-1003.mkv
+Video 247: length 600
+Vlog_720P-11c5.mkv
+Video 248: length 600
+Vlog_720P-135c.mkv
+Video 249: length 500
+Vlog_720P-141f.mkv
+Video 250: length 599
+Vlog_720P-155f.mkv
+Video 251: length 599
+Vlog_720P-2929.mkv
+Video 252: length 599
+Vlog_720P-329f.mkv
+Video 253: length 480
+Vlog_720P-32b2.mkv
+Video 254: length 599
+Vlog_720P-343d.mkv
+Video 255: length 599
+Vlog_720P-372d.mkv
+Video 256: length 600
+Vlog_720P-3e9c.mkv
+Video 257: length 499
+Vlog_720P-4e3d.mkv
+Video 258: length 600
+Vlog_720P-5364.mkv
+Video 259: length 600
+Vlog_720P-55b6.mkv
+Video 260: length 600
+Vlog_720P-561e.mkv
+Video 261: length 599
+Vlog_720P-5d08.mkv
+Video 262: length 479
+Vlog_720P-60f8.mkv
+Video 263: length 499
+Vlog_720P-6d56.mkv
+Video 264: length 599

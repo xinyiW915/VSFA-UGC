@@ -1,0 +1,62 @@
+Running on host compute085.bc4.acrc.priv
+Time is Fri Aug 13 16:05:33 BST 2021
+Directory is /mnt/storage/scratch/um20242/VSFA-master
+Slurm job ID is 4640380
+This jobs runs on the following machines:
+compute085
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/test_sequence/original_test.mp4
+Video length: 600
+Predicted quality: 0.49472492933273315
+Time: 188.2719705104828 s
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/test_sequence/decoded_test.mp4:
+Video length: 600
+Predicted quality: 0.49083688855171204
+Time: 186.9725444316864 s
+
+#For test_demo.py --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/VSFA-master/test.mp4
+Video length: 240
+Predicted quality: 0.8554531335830688
+Time: 202.00242161750793 s
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/ugc-dataset/360P/Animation_360P-08c9.mkv
+Video length: 600
+Predicted quality: 0.864310622215271
+Time: 289.2897186279297 s
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/ugc-dataset/360P/CoverSong_360P-0a9d.mkv
+Video length: 175
+Predicted quality: 0.746311366558075
+Time: 6.409616708755493 s
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/ugc-dataset/360P/Gaming_360P-043e.mkv
+Video length: 600
+Predicted quality: 0.8238890171051025
+Time: 9.741384983062744 s
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/ugc-dataset/360P/HowTo_360P-041c.mkv
+Video length: 600
+Predicted quality: 0.8439531326293945
+Time: 11.708716869354248 s
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/ugc-dataset/360P/Lecture_360P-03bc.mkv
+Video length: 500
+Predicted quality: 0.6911283135414124
+Time: 10.710628271102905 s
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/ugc-dataset/360P/LiveMusic_360P-121f.mkv
+Video length: 599
+Predicted quality: 0.8238053321838379
+Time: 11.786140203475952 s
+
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/ugc-dataset/480P/Animation_480P-046c.mkv
+Video length: 600
+Predicted quality: 0.7104489207267761
+Time: 13.169559001922607 s
+
+#For --video_format=RGB --video_path=/mnt/storage/home/um20242/scratch/ugc-dataset/480P/CoverSong_480P-0170.mkv
+Video length: 300
+Predicted quality: 0.7692555785179138
+Time: 9.434969186782837 s

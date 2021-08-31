@@ -1,0 +1,550 @@
+Running on host gpu20.bc4.acrc.priv
+Time is Sat Aug 21 19:15:04 BST 2021
+Directory is /mnt/storage/scratch/um20242/VSFA-master/code
+Slurm job ID is 4690234
+This jobs runs on the following machines:
+gpu20
+.................
+RGB
+Animation_480P-046c.mkv
+Video 0: length 600
+Animation_480P-073c.mkv
+Video 1: length 499
+Animation_480P-087e.mkv
+Video 2: length 209
+Animation_480P-08a5.mkv
+Video 3: length 500
+Animation_480P-0d04.mkv
+Video 4: length 599
+Animation_480P-1da7.mkv
+Video 5: length 173
+Animation_480P-35ee.mkv
+Video 6: length 600
+Animation_480P-3fdf.mkv
+Video 7: length 499
+Animation_480P-4b86.mkv
+Video 8: length 599
+Animation_480P-4e36.mkv
+Video 9: length 500
+Animation_480P-52af.mkv
+Video 10: length 599
+Animation_480P-66c0.mkv
+Video 11: length 599
+Animation_480P-6e23.mkv
+Video 12: length 600
+Animation_480P-6ef6.mkv
+Video 13: length 500
+Animation_480P-6ff4.mkv
+Video 14: length 600
+Animation_480P-70d4.mkv
+Video 15: length 600
+Animation_480P-791b.mkv
+Video 16: length 599
+Animation_480P-7a31.mkv
+Video 17: length 158
+Animation_480P-7ef2.mkv
+Video 18: length 499
+CoverSong_480P-0170.mkv
+Video 19: length 300
+CoverSong_480P-1019.mkv
+Video 20: length 500
+CoverSong_480P-1109.mkv
+Video 21: length 500
+CoverSong_480P-2142.mkv
+Video 22: length 599
+CoverSong_480P-2207.mkv
+Video 23: length 600
+CoverSong_480P-2d2c.mkv
+Video 24: length 600
+CoverSong_480P-3076.mkv
+Video 25: length 597
+CoverSong_480P-35e1.mkv
+Video 26: length 599
+CoverSong_480P-3e4b.mkv
+Video 27: length 600
+CoverSong_480P-3e92.mkv
+Video 28: length 1000
+CoverSong_480P-3f3b.mkv
+Video 29: length 599
+CoverSong_480P-41a5.mkv
+Video 30: length 329
+CoverSong_480P-4d34.mkv
+Video 31: length 592
+CoverSong_480P-53f4.mkv
+Video 32: length 600
+CoverSong_480P-59f2.mkv
+Video 33: length 148
+CoverSong_480P-5b62.mkv
+Video 34: length 576
+CoverSong_480P-60a6.mkv
+Video 35: length 584
+CoverSong_480P-64d0.mkv
+Video 36: length 500
+CoverSong_480P-6c3e.mkv
+Video 37: length 600
+CoverSong_480P-6c50.mkv
+Video 38: length 600
+CoverSong_480P-7f6d.mkv
+Video 39: length 600
+Gaming_480P-0109.mkv
+Video 40: length 485
+Gaming_480P-062e.mkv
+Video 41: length 599
+Gaming_480P-09ab.mkv
+Video 42: length 600
+Gaming_480P-0a03.mkv
+Video 43: length 599
+Gaming_480P-0d23.mkv
+Video 44: length 599
+Gaming_480P-0dbc.mkv
+Video 45: length 599
+Gaming_480P-14fc.mkv
+Video 46: length 599
+Gaming_480P-1542.mkv
+Video 47: length 599
+Gaming_480P-20ca.mkv
+Video 48: length 599
+Gaming_480P-3a44.mkv
+Video 49: length 600
+Gaming_480P-445b.mkv
+Video 50: length 600
+Gaming_480P-4560.mkv
+Video 51: length 1109
+Gaming_480P-5a5a.mkv
+Video 52: length 500
+Gaming_480P-61ee.mkv
+Video 53: length 1400
+Gaming_480P-626a.mkv
+Video 54: length 599
+Gaming_480P-6491.mkv
+Video 55: length 600
+Gaming_480P-6548.mkv
+Video 56: length 600
+Gaming_480P-6a5a.mkv
+Video 57: length 599
+Gaming_480P-6c92.mkv
+Video 58: length 594
+Gaming_480P-6cdc.mkv
+Video 59: length 600
+Gaming_480P-6d1e.mkv
+Video 60: length 600
+Gaming_480P-6f4b.mkv
+Video 61: length 600
+Gaming_480P-75f7.mkv
+Video 62: length 599
+Gaming_480P-7893.mkv
+Video 63: length 600
+Gaming_480P-7a08.mkv
+Video 64: length 700
+Gaming_480P-7ccb.mkv
+Video 65: length 599
+Gaming_480P-7e76.mkv
+Video 66: length 599
+HowTo_480P-04f1.mkv
+Video 67: length 599
+HowTo_480P-0cb3.mkv
+Video 68: length 600
+HowTo_480P-0d00.mkv
+Video 69: length 500
+HowTo_480P-0eb3.mkv
+Video 70: length 600
+HowTo_480P-118d.mkv
+Video 71: length 600
+HowTo_480P-15c1.mkv
+Video 72: length 329
+HowTo_480P-221e.mkv
+Video 73: length 300
+HowTo_480P-2610.mkv
+Video 74: length 40
+HowTo_480P-32c9.mkv
+Video 75: length 500
+HowTo_480P-3435.mkv
+Video 76: length 1199
+HowTo_480P-470b.mkv
+Video 77: length 600
+HowTo_480P-4948.mkv
+Video 78: length 40
+HowTo_480P-4a28.mkv
+Video 79: length 599
+HowTo_480P-4b6a.mkv
+Video 80: length 40
+HowTo_480P-4c99.mkv
+Video 81: length 600
+HowTo_480P-56a5.mkv
+Video 82: length 600
+HowTo_480P-60b3.mkv
+Video 83: length 300
+HowTo_480P-63a2.mkv
+Video 84: length 599
+HowTo_480P-64a2.mkv
+Video 85: length 599
+HowTo_480P-7579.mkv
+Video 86: length 599
+HowTo_480P-7c11.mkv
+Video 87: length 599
+Lecture_480P-02f2.mkv
+Video 88: length 600
+Lecture_480P-11df.mkv
+Video 89: length 600
+Lecture_480P-181a.mkv
+Video 90: length 578
+Lecture_480P-1ec3.mkv
+Video 91: length 300
+Lecture_480P-2513.mkv
+Video 92: length 500
+Lecture_480P-2655.mkv
+Video 93: length 600
+Lecture_480P-2ed0.mkv
+Video 94: length 499
+Lecture_480P-369f.mkv
+Video 95: length 480
+Lecture_480P-3bdc.mkv
+Video 96: length 300
+Lecture_480P-41b7.mkv
+Video 97: length 599
+Lecture_480P-4272.mkv
+Video 98: length 200
+Lecture_480P-42c3.mkv
+Video 99: length 599
+Lecture_480P-4bc3.mkv
+Video 100: length 600
+Lecture_480P-4c86.mkv
+Video 101: length 600
+Lecture_480P-5aee.mkv
+Video 102: length 599
+Lecture_480P-5cd7.mkv
+Video 103: length 600
+Lecture_480P-5f3a.mkv
+Video 104: length 599
+Lecture_480P-6191.mkv
+Video 105: length 500
+Lecture_480P-6b1e.mkv
+Video 106: length 200
+Lecture_480P-71c0.mkv
+Video 107: length 499
+Lecture_480P-71d6.mkv
+Video 108: length 600
+Lecture_480P-7205.mkv
+Video 109: length 500
+Lecture_480P-73f6.mkv
+Video 110: length 600
+Lecture_480P-74cf.mkv
+Video 111: length 599
+Lecture_480P-74ea.mkv
+Video 112: length 500
+Lecture_480P-7d77.mkv
+Video 113: length 500
+Lecture_480P-7e55.mkv
+Video 114: length 600
+Lecture_480P-7eec.mkv
+Video 115: length 600
+LiveMusic_480P-0638.mkv
+Video 116: length 599
+LiveMusic_480P-1a91.mkv
+Video 117: length 600
+LiveMusic_480P-2019.mkv
+Video 118: length 599
+LiveMusic_480P-2a5e.mkv
+Video 119: length 599
+LiveMusic_480P-34be.mkv
+Video 120: length 600
+LiveMusic_480P-38f3.mkv
+Video 121: length 600
+LiveMusic_480P-3d03.mkv
+Video 122: length 600
+LiveMusic_480P-459c.mkv
+Video 123: length 600
+LiveMusic_480P-474a.mkv
+Video 124: length 500
+LiveMusic_480P-4c3a.mkv
+Video 125: length 500
+LiveMusic_480P-4f88.mkv
+Video 126: length 600
+LiveMusic_480P-559d.mkv
+Video 127: length 599
+LiveMusic_480P-58fb.mkv
+Video 128: length 599
+LiveMusic_480P-61ef.mkv
+Video 129: length 500
+LiveMusic_480P-6542.mkv
+Video 130: length 599
+LiveMusic_480P-65ca.mkv
+Video 131: length 600
+LyricVideo_480P-0a5b.mkv
+Video 132: length 500
+LyricVideo_480P-0f72.mkv
+Video 133: length 600
+LyricVideo_480P-1484.mkv
+Video 134: length 600
+LyricVideo_480P-200a.mkv
+Video 135: length 497
+LyricVideo_480P-2c50.mkv
+Video 136: length 599
+LyricVideo_480P-3b2c.mkv
+Video 137: length 600
+LyricVideo_480P-3ccf.mkv
+Video 138: length 499
+LyricVideo_480P-4346.mkv
+Video 139: length 599
+LyricVideo_480P-51e4.mkv
+Video 140: length 599
+LyricVideo_480P-5c17.mkv
+Video 141: length 600
+LyricVideo_480P-6fca.mkv
+Video 142: length 600
+LyricVideo_480P-7919.mkv
+Video 143: length 600
+MusicVideo_480P-0448.mkv
+Video 144: length 500
+MusicVideo_480P-12fb.mkv
+Video 145: length 500
+MusicVideo_480P-184c.mkv
+Video 146: length 500
+MusicVideo_480P-1eee.mkv
+Video 147: length 599
+MusicVideo_480P-2de0.mkv
+Video 148: length 499
+MusicVideo_480P-3aa2.mkv
+Video 149: length 600
+MusicVideo_480P-3c8b.mkv
+Video 150: length 499
+MusicVideo_480P-41ce.mkv
+Video 151: length 599
+MusicVideo_480P-483b.mkv
+Video 152: length 599
+MusicVideo_480P-4cc8.mkv
+Video 153: length 600
+MusicVideo_480P-5461.mkv
+Video 154: length 599
+MusicVideo_480P-5830.mkv
+Video 155: length 600
+MusicVideo_480P-6026.mkv
+Video 156: length 599
+MusicVideo_480P-61ba.mkv
+Video 157: length 599
+MusicVideo_480P-66b2.mkv
+Video 158: length 299
+MusicVideo_480P-6fb6.mkv
+Video 159: length 500
+MusicVideo_480P-7643.mkv
+Video 160: length 600
+MusicVideo_480P-7955.mkv
+Video 161: length 600
+NewsClip_480P-0269.mkv
+Video 162: length 599
+NewsClip_480P-0ce5.mkv
+Video 163: length 600
+NewsClip_480P-15fa.mkv
+Video 164: length 499
+NewsClip_480P-2407.mkv
+Video 165: length 600
+NewsClip_480P-2642.mkv
+Video 166: length 499
+NewsClip_480P-28eb.mkv
+Video 167: length 599
+NewsClip_480P-2b9b.mkv
+Video 168: length 599
+NewsClip_480P-2ba7.mkv
+Video 169: length 499
+NewsClip_480P-31bd.mkv
+Video 170: length 600
+NewsClip_480P-3672.mkv
+Video 171: length 500
+NewsClip_480P-36d0.mkv
+Video 172: length 499
+NewsClip_480P-4072.mkv
+Video 173: length 500
+NewsClip_480P-41b1.mkv
+Video 174: length 500
+NewsClip_480P-437c.mkv
+Video 175: length 600
+NewsClip_480P-49c9.mkv
+Video 176: length 500
+NewsClip_480P-4a9f.mkv
+Video 177: length 600
+NewsClip_480P-4e77.mkv
+Video 178: length 499
+NewsClip_480P-543f.mkv
+Video 179: length 499
+NewsClip_480P-5a3b.mkv
+Video 180: length 500
+NewsClip_480P-5e7f.mkv
+Video 181: length 500
+NewsClip_480P-606e.mkv
+Video 182: length 499
+NewsClip_480P-6615.mkv
+Video 183: length 599
+NewsClip_480P-696e.mkv
+Video 184: length 500
+NewsClip_480P-6bfa.mkv
+Video 185: length 499
+NewsClip_480P-7232.mkv
+Video 186: length 499
+NewsClip_480P-72b8.mkv
+Video 187: length 499
+NewsClip_480P-7a0d.mkv
+Video 188: length 500
+Sports_480P-0623.mkv
+Video 189: length 500
+Sports_480P-0827.mkv
+Video 190: length 499
+Sports_480P-0af9.mkv
+Video 191: length 600
+Sports_480P-0bb9.mkv
+Video 192: length 500
+Sports_480P-0efe.mkv
+Video 193: length 1198
+Sports_480P-1019.mkv
+Video 194: length 500
+Sports_480P-1056.mkv
+Video 195: length 500
+Sports_480P-11ec.mkv
+Video 196: length 600
+Sports_480P-1396.mkv
+Video 197: length 500
+Sports_480P-19e4.mkv
+Video 198: length 599
+Sports_480P-1d1b.mkv
+Video 199: length 499
+Sports_480P-1fe9.mkv
+Video 200: length 599
+Sports_480P-2053.mkv
+Video 201: length 500
+Sports_480P-211f.mkv
+Video 202: length 599
+Sports_480P-2dfe.mkv
+Video 203: length 599
+Sports_480P-3195.mkv
+Video 204: length 500
+Sports_480P-3404.mkv
+Video 205: length 500
+Sports_480P-35ea.mkv
+Video 206: length 600
+Sports_480P-3ca4.mkv
+Video 207: length 500
+Sports_480P-3dfd.mkv
+Video 208: length 600
+Sports_480P-3f50.mkv
+Video 209: length 499
+Sports_480P-41a5.mkv
+Video 210: length 500
+Sports_480P-44e5.mkv
+Video 211: length 500
+Sports_480P-4cf8.mkv
+Video 212: length 500
+Sports_480P-5224.mkv
+Video 213: length 593
+Sports_480P-5871.mkv
+Video 214: length 600
+Sports_480P-5f38.mkv
+Video 215: length 300
+Sports_480P-6508.mkv
+Video 216: length 499
+Sports_480P-6e41.mkv
+Video 217: length 500
+Sports_480P-77e3.mkv
+Video 218: length 599
+Sports_480P-7f7e.mkv
+Video 219: length 599
+TelevisionClip_480P-09d8.mkv
+Video 220: length 599
+TelevisionClip_480P-0e46.mkv
+Video 221: length 599
+TelevisionClip_480P-19d3.mkv
+Video 222: length 499
+TelevisionClip_480P-1b49.mkv
+Video 223: length 599
+TelevisionClip_480P-27ca.mkv
+Video 224: length 600
+TelevisionClip_480P-2ead.mkv
+Video 225: length 499
+TelevisionClip_480P-30b6.mkv
+Video 226: length 600
+TelevisionClip_480P-3284.mkv
+Video 227: length 600
+TelevisionClip_480P-3617.mkv
+Video 228: length 600
+TelevisionClip_480P-373d.mkv
+Video 229: length 599
+TelevisionClip_480P-3c64.mkv
+Video 230: length 600
+TelevisionClip_480P-415c.mkv
+Video 231: length 600
+TelevisionClip_480P-436c.mkv
+Video 232: length 599
+TelevisionClip_480P-4c6b.mkv
+Video 233: length 600
+TelevisionClip_480P-59f0.mkv
+Video 234: length 599
+TelevisionClip_480P-723e.mkv
+Video 235: length 600
+VerticalVideo_480P-1bb9.mkv
+Video 236: length 600
+VerticalVideo_480P-2aa1.mkv
+Video 237: length 600
+VerticalVideo_480P-2fa4.mkv
+Video 238: length 590
+VerticalVideo_480P-34b9.mkv
+Video 239: length 600
+VerticalVideo_480P-3a6a.mkv
+Video 240: length 2819
+VerticalVideo_480P-419c.mkv
+Video 241: length 599
+VerticalVideo_480P-467e.mkv
+Video 242: length 600
+VerticalVideo_480P-51b7.mkv
+Video 243: length 276
+VerticalVideo_480P-550d.mkv
+Video 244: length 644
+VerticalVideo_480P-572a.mkv
+Video 245: length 600
+VerticalVideo_480P-7278.mkv
+Video 246: length 467
+VerticalVideo_480P-729c.mkv
+Video 247: length 480
+VerticalVideo_480P-790a.mkv
+Video 248: length 935
+Vlog_480P-08c7.mkv
+Video 249: length 600
+Vlog_480P-0980.mkv
+Video 250: length 600
+Vlog_480P-0ddc.mkv
+Video 251: length 601
+Vlog_480P-1b39.mkv
+Video 252: length 599
+Vlog_480P-206f.mkv
+Video 253: length 599
+Vlog_480P-279d.mkv
+Video 254: length 599
+Vlog_480P-2cad.mkv
+Video 255: length 599
+Vlog_480P-34ba.mkv
+Video 256: length 600
+Vlog_480P-476b.mkv
+Video 257: length 600
+Vlog_480P-4beb.mkv
+Video 258: length 599
+Vlog_480P-5275.mkv
+Video 259: length 500
+Vlog_480P-535d.mkv
+Video 260: length 599
+Vlog_480P-59dc.mkv
+Video 261: length 601
+Vlog_480P-5dfe.mkv
+Video 262: length 599
+Vlog_480P-5e1c.mkv
+Video 263: length 6
+Vlog_480P-6395.mkv
+Video 264: length 600
+Vlog_480P-6c60.mkv
+Video 265: length 600
+Vlog_480P-7237.mkv
+Video 266: length 600
+Vlog_480P-7615.mkv
+Video 267: length 600
+Vlog_480P-7754.mkv
+Video 268: length 600
+Vlog_480P-7d0c.mkv
+Video 269: length 600
+Vlog_480P-7ecf.mkv
+Video 270: length 599
