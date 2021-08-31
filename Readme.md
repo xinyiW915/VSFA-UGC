@@ -1,7 +1,7 @@
 # UGC video dataset test based on VSFA
 
 ## UPDATE!
-Completed implementation of 360P, 480P, 720P, 1080P video data on YouTube UGC datasets.
+Completed implementation for 360P, 480P, 720P, 1080P video data on YouTube UGC datasets.
 
 Scatter plots and nonlinear logistic fitted curves of VSFA model versus MOS trained with a grid-search SVR using k-fold cross-validation on YouTube UGC datasets.
 
