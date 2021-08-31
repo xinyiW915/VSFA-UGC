@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 This script shows how to apply k-folds train and validate regression model to predict
-MOS from the features computed with compute_features_example.m
+MOS from the features
 
 # Modify: Xinyi Wang
 # Date: 2021/08/31
