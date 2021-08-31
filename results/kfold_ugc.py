@@ -3,7 +3,8 @@
 This script shows how to apply k-folds train and validate regression model to predict
 MOS from the features computed with compute_features_example.m
 
-Author: Zhengzhong Tu
+# Modify: Xinyi Wang
+# Date: 2021/08/31
 """
 import warnings
 import time
