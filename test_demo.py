@@ -1,4 +1,4 @@
-"""Test Demo for Quality Assessment of In-the-Wild Videos, ACM MM 2019"""
+"""Test Demo for UGC video sequences"""
 # Modify: Xinyi Wang
 # Date: 2021/08/31
 
