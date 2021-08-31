@@ -1,9 +1,6 @@
 """Test Demo for Quality Assessment of In-the-Wild Videos, ACM MM 2019"""
-#
-# Author: Dingquan Li
-# Email: dingquanli AT pku DOT edu DOT cn
-# Date: 2018/3/27
-#
+# Modify: Xinyi Wang
+# Date: 2021/08/31
 
 import skvideo
 # skvideo.setFFmpegPath('/mnt/storage/software/apps/ffmpeg-4.3/bin/ffmpeg')
