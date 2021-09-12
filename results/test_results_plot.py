@@ -25,11 +25,9 @@ print('RMSE:', RMSE)
 test_index = results[7]
 print('test_index:', test_index)
 
-# # 画图
 data_name = 'YOUTUBE_UGC_480P'
 algo_name = 'VSFA'
 fig_path = '/mnt/storage/home/um20242/scratch/VSFA-master/figs/'
-
 
 data = {'MOS': y_test,
         'Predicted Score': y_pred}
@@ -45,4 +43,3 @@ plt.show()
 plt.title("480P YT-UGC", fontsize=10)
 reg_fig = fig.get_figure()
 reg_fig.savefig(fig_path + algo_name + '_' + data_name, dpi=400)
-
