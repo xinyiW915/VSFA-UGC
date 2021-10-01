@@ -2,6 +2,7 @@
 # Modify: Xinyi Wang
 # Date: 2021/08/31
 
+
 import skvideo
 # skvideo.setFFmpegPath('/mnt/storage/software/apps/ffmpeg-4.3/bin/ffmpeg')
 
@@ -11,7 +12,7 @@ import skvideo.io
 from PIL import Image
 import numpy as np
 from VSFA import VSFA
-from CNNfeatures import get_features
+from CNNfeaturesUGC import get_features
 from argparse import ArgumentParser
 import time
 
@@ -20,7 +21,7 @@ if __name__ == "__main__":
     parser = ArgumentParser(description='"Test Demo of VSFA')
     parser.add_argument('--model_path', default='/mnt/storage/home/um20242/scratch/VSFA-UGC/models/VSFA.pt', type=str,
                         help='model path (default: models/VSFA.pt)')
-    parser.add_argument('--video_path', default='/mnt/storage/home/um20242/scratch/ugc-dataset/2160P/Gaming_2160P-2436.mkv', type=str,
+    parser.add_argument('--video_path', default='/mnt/storage/home/um20242/scratch/ugc-dataset/360P/Animation_360P-3e52.mkv', type=str,
                         help='video path (default: ./test.mp4)')
     parser.add_argument('--video_format', default='RGB', type=str,
                         help='video format: RGB or YUV420 (default: RGB)')
@@ -43,11 +44,11 @@ if __name__ == "__main__":
         video_data = skvideo.io.vread(args.video_path, args.video_height, args.video_width, inputdict={'-pix_fmt': 'yuv420p'})
         print(args.video_height)
         print(args.video_width)
-        print(video_data)
+        # print(video_data)
     else:
         video_data = skvideo.io.vread(args.video_path)
         print(args.video_format)
-        print(video_data)
+        # print(video_data)
 
     video_length = video_data.shape[0]
     print(video_length)

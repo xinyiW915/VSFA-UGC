@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --job-name=cnn2160
+#SBATCH --job-name=cnnALL
 #SBATCH --partition gpu
 #SBATCH --gres=gpu:2
 #SBATCH --nodes=1
-#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-UGC/logs/cnn2160.out
+#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-UGC/logs/cnnALL.out
 #SBATCH --mem=80GB
 
 cd "${SLURM_SUBMIT_DIR}"
@@ -25,7 +25,7 @@ module load CUDA
 source activate reproducibleresearch        #pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # CNN features extraction
-CUDA_VISIBLE_DEVICES=2 python CNNfeaturesUGC.py --database=YOUTUBE_UGC_2160P --frame_batch_size=32
+CUDA_VISIBLE_DEVICES=2 python CNNfeaturesUGC.py --database=YOUTUBE_UGC_ALL --frame_batch_size=32
 
 ## Deactivate virtualenv
 conda deactivate

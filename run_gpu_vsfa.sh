@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#SBATCH --job-name=vfsa720
+#SBATCH --job-name=vfsa1080
 #SBATCH --partition gpu
 #SBATCH --gres=gpu:2
 #SBATCH --nodes=2
 #SBATCH --ntasks=4
-#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-UGC/logs/vfsa720P.out
-#SBATCH --mem=50GB
+#SBATCH -o /mnt/storage/home/um20242/scratch/VSFA-UGC/logs/vfsa1080P.out
+#SBATCH --mem=80GB
 
 cd "${SLURM_SUBMIT_DIR}"
 
@@ -29,7 +29,8 @@ source activate reproducibleresearch        #pip install -r requirements.txt -i 
 # Run Python script
 
 # VFSA prediction
-CUDA_VISIBLE_DEVICES=2 python VSFA.py --database=YOUTUBE_UGC_720P --exp_id=0
+CUDA_VISIBLE_DEVICES=2 python VSFA.py --database=YOUTUBE_UGC_1080P --exp_id=0
+#nohup python -u VSFA.py --database=YOUTUBE_UGC_ALL --exp_id=0>vsfaALL.log 2>&1 &
 
 ## Deactivate virtualenv
 conda deactivate

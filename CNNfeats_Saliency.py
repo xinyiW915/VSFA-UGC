@@ -160,10 +160,10 @@ if __name__ == "__main__":
         videos_dir = '/mnt/storage/home/um20242/scratch/ugc-dataset/2160P/'
         features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_2160P/'
         datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_2160P_info.mat'
-    if args.database == 'YOUTUBE_UGC_ALL_p2':
-        videos_dir = '/mnt/storage/home/um20242/scratch/ugc-dataset/ALL/'
-        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_ALL_p2/'
-        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_ALL_p2_info.mat'
+    if args.database == 'YOUTUBE_UGC_1080P_p6':
+        videos_dir = '/mnt/storage/home/um20242/scratch/ugc-dataset/1080P/'
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_1080P_p6/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/data_part/YOUTUBE_UGC_1080P_p6_info.mat'
 
     if not os.path.exists(features_dir):
         os.makedirs(features_dir)
@@ -201,5 +201,5 @@ if __name__ == "__main__":
         current_score = current_data['score']
         print('Video {}: length {}'.format(i, current_video.shape[0]))
         features = get_features(current_video, args.frame_batch_size, device)
-        np.save(features_dir + str(688+i) + '_resnet-50_res5c', features.to('cpu').numpy())
-        np.save(features_dir + str(688+i) + '_score', current_score)
+        np.save(features_dir + str(273+i) + '_resnet-50_res5c', features.to('cpu').numpy())
+        np.save(features_dir + str(273+i) + '_score', current_score)

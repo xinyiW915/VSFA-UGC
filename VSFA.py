@@ -1,6 +1,9 @@
 """Quality Assessment of In-the-Wild Videos, ACM MM 2019"""
 # Modify: Xinyi Wang
 # Date: 2021/08/31
+#
+# tensorboard --logdir=logs --port=6006
+# CUDA_VISIBLE_DEVICES=1 python VSFA.py --database=KoNViD-1k --exp_id=0
 
 from argparse import ArgumentParser
 import os
@@ -18,7 +21,7 @@ import datetime
 
 
 class VQADataset(Dataset):
-    def __init__(self, features_dir='/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features/CNN_features_720P/', index=None, max_len=3000, feat_dim=4096, scale=1):
+    def __init__(self, features_dir='/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features/CNN_features_ALL/', index=None, max_len=3000, feat_dim=4096, scale=1):
         super(VQADataset, self).__init__()
         self.features = np.zeros((len(index), max_len, feat_dim))
         self.length = np.zeros((len(index), 1))
@@ -103,7 +106,7 @@ if __name__ == "__main__":
     parser.add_argument('--epochs', type=int, default=2000,
                         help='number of epochs to train (default: 2000)')
 
-    parser.add_argument('--database', default='YOUTUBE_UGC_720P', type=str,
+    parser.add_argument('--database', default='YOUTUBE_UGC_ALL', type=str,
                         help='database name (default: CVD2014)')
     parser.add_argument('--model', default='VSFA', type=str,
                         help='model name (default: VSFA)')
@@ -141,9 +144,9 @@ if __name__ == "__main__":
     # if args.database == 'KoNViD-1k':
     #     features_dir = 'CNN_features_KoNViD-1k/'  # features dir
     #     datainfo = 'data/KoNViD-1kinfo.mat'  # database info: video_names, scores; video format, width, height, index, ref_ids, max_len, etc.
-    if args.database == 'YOUTUBE_UGC_720P':
-        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_720P/'
-        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_720P_info.mat'
+    if args.database == 'YOUTUBE_UGC_ALL':
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_ALL/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_ALL_info.mat'
 
     print('EXP ID: {}'.format(args.exp_id))
     print(args.database)
