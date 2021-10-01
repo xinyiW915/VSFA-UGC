@@ -1,0 +1,7 @@
+Running on host compute091.bc4.acrc.priv
+Time is Sat Sep  4 21:30:25 BST 2021
+Directory is /mnt/storage/scratch/um20242/VSFA-UGC
+Slurm job ID is 4766862
+This jobs runs on the following machines:
+compute[091,304,316,454]
+slurmstepd: error: *** JOB 4766862 ON compute091 CANCELLED AT 2021-09-06T21:30:35 DUE TO TIME LIMIT ***
