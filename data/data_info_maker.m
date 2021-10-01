@@ -6,7 +6,7 @@
 clear,clc;
 
 %% YOUTUBE_UGC
-data_path = '/mnt/storage/home/um20242/scratch/ugc-dataset/data_filter/YOUTUBE_UGC_2160P_metadata.csv';
+data_path = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_ALL_p2.csv';
 data = readtable(data_path);
 video_names = data.vid; % video names
 scores = data.MOSFull; % subjective scores
@@ -20,4 +20,4 @@ ref_ids = [1:length(scores)]'; % video content ids
 % `random` train-val-test split index, 1000 runs
 index = cell2mat(arrayfun(@(i)randperm(length(scores)), ...
     1:1000,'UniformOutput', false)');
-save('YOUTUBE_UGC_2160P_info','-v7.3')
+save('YOUTUBE_UGC_ALL_p2_info','-v7.3')
