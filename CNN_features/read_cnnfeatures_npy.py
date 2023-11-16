@@ -7,16 +7,17 @@ import seaborn as sn
 import matplotlib.pyplot as plt
 import h5py
 
-data_name = 'CNN_features_1080P'
-csv_file = '/mnt/storage/home/um20242/scratch/ugc-dataset/data_filter/YOUTUBE_UGC_1080P_metadata.csv'
-features_dir = '../' + data_name + '/'
+data_name = 'CNN_features_1080P_test'
+csv_file = "../../RVS-resize/mos_file/YOUTUBE_UGC_1080P_test_metadata.csv"
+features_dir = '../CNN_features_1080P_test/'
 
 try:
     df = pandas.read_csv(csv_file)
 except:
     raise Exception('Read csv file error!')
 
-names = df['vid']
+names = df['vid'] #YOUTUBE_UGC
+# names = df['flickr_id'] #KONVID_1K
 features = []
 score = []
 for i in range(len(df)):
@@ -26,8 +27,8 @@ for i in range(len(df)):
     mean_feature = np.average(feature, axis=0)
     feature_list = mean_feature.tolist()
 
-    score.append(mos)
     features.append(feature_list)
+    score.append(mos)
 
 cnnfeatures = pandas.DataFrame(index=names, data=features)
 score = pandas.DataFrame(index=names, data=score)
