@@ -7,8 +7,8 @@ import seaborn as sn
 import matplotlib.pyplot as plt
 
 # np.save(save_result_file, (y_pred, y_test, test_loss, SROCC, KROCC, PLCC, RMSE, test_index))
-results = np.load('/mnt/storage/home/um20242/scratch/VSFA-master/results/VSFA-YOUTUBE_UGC_480P-EXP0.npy',allow_pickle=True)
-
+results = np.load('/mnt/storage/home/um20242/scratch/VSFA-UGC/results/VSFA-YOUTUBE_UGC_ALL-EXP0.npy',allow_pickle=True)
+print(results)
 y_pred = results[0]
 y_test = results[1]
 
@@ -25,9 +25,11 @@ print('RMSE:', RMSE)
 test_index = results[7]
 print('test_index:', test_index)
 
-data_name = 'YOUTUBE_UGC_480P'
+# # 画图
+data_name = 'YOUTUBE_UGC_ALL'
 algo_name = 'VSFA'
-fig_path = '/mnt/storage/home/um20242/scratch/VSFA-master/figs/'
+fig_path = '/mnt/storage/home/um20242/scratch/VSFA-UGC/figs/'
+
 
 data = {'MOS': y_test,
         'Predicted Score': y_pred}
@@ -40,6 +42,7 @@ fig = sn.regplot(x='Predicted Score', y='MOS', data=df, marker='o',
                 line_kws={'linestyle': '--', 'color': '#c72e29'}  # 设置线属性，参考 plt.plot#
                 )
 plt.show()
-plt.title("480P YT-UGC", fontsize=10)
+plt.title("ALL YT-UGC", fontsize=10)
 reg_fig = fig.get_figure()
 reg_fig.savefig(fig_path + algo_name + '_' + data_name, dpi=400)
+
