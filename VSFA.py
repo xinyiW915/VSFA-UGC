@@ -21,7 +21,7 @@ import datetime
 
 
 class VQADataset(Dataset):
-    def __init__(self, features_dir='/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features/CNN_features_ALL/', index=None, max_len=3000, feat_dim=4096, scale=1):
+    def __init__(self, features_dir='/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features/', index=None, max_len=3000, feat_dim=4096, scale=1):
         super(VQADataset, self).__init__()
         self.features = np.zeros((len(index), max_len, feat_dim))
         self.length = np.zeros((len(index), 1))
@@ -147,6 +147,24 @@ if __name__ == "__main__":
     if args.database == 'YOUTUBE_UGC_ALL':
         features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_ALL/'
         datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_ALL_info.mat'
+    elif args.database == 'YOUTUBE_UGC_360P':
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_360P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_360P_info.mat'
+    elif args.database == 'YOUTUBE_UGC_480P':
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_480P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_480P_info.mat'
+    elif args.database == 'YOUTUBE_UGC_720P':
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_720P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_720P_info.mat'
+    elif args.database == 'YOUTUBE_UGC_1080P':
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_1080P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_1080P_info.mat'
+    elif args.database == 'YOUTUBE_UGC_2160P':
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_2160P/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/YOUTUBE_UGC_2160P_info.mat'
+    elif args.database == 'KoNViD_1k':
+        features_dir = '/mnt/storage/home/um20242/scratch/VSFA-UGC/CNN_features_KoNVid/'
+        datainfo = '/mnt/storage/home/um20242/scratch/VSFA-UGC/data/KONVID_1K_info.mat'
 
     print('EXP ID: {}'.format(args.exp_id))
     print(args.database)
@@ -158,9 +176,9 @@ if __name__ == "__main__":
     index = Info['index']
     index = index[:, args.exp_id % index.shape[1]]  # np.random.permutation(N)
     ref_ids = Info['ref_ids'][0, :]  #
-    # max_len = int(Info['max_len'][0])
+    max_len = int(Info['max_len'][0])
     # max_len = 1200 #360P
-    max_len = 3000 #480P
+    # max_len = 3000 #480P
     trainindex = index[0:int(np.ceil((1 - args.test_ratio - args.val_ratio) * len(index)))]
     testindex = index[int(np.ceil((1 - args.test_ratio) * len(index))):len(index)]
     train_index, val_index, test_index = [], [], []

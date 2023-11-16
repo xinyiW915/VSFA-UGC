@@ -19,9 +19,9 @@ import time
 
 if __name__ == "__main__":
     parser = ArgumentParser(description='"Test Demo of VSFA')
-    parser.add_argument('--model_path', default='/mnt/storage/home/um20242/scratch/VSFA-UGC/models/VSFA.pt', type=str,
+    parser.add_argument('--model_path', default='/user/work/um20242/VSFA-UGC/models/VSFA.pt', type=str,
                         help='model path (default: models/VSFA.pt)')
-    parser.add_argument('--video_path', default='/mnt/storage/home/um20242/scratch/ugc-dataset/360P/Animation_360P-3e52.mkv', type=str,
+    parser.add_argument('--video_path', default='/user/work/um20242/dataset/ugc-dataset/1080P/TelevisionClip_1080P-68c6.mkv', type=str,
                         help='video path (default: ./test.mp4)')
     parser.add_argument('--video_format', default='RGB', type=str,
                         help='video format: RGB or YUV420 (default: RGB)')
@@ -56,23 +56,31 @@ if __name__ == "__main__":
     video_height = video_data.shape[1]
     print(video_height)
     video_width = video_data.shape[2]
+    print(video_width)
     transformed_video = torch.zeros([video_length, video_channel, video_height, video_width])
     transform = transforms.Compose([
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ])
+    print(transform)
 
     for frame_idx in range(video_length):
         frame = video_data[frame_idx]
         frame = Image.fromarray(frame)
+        print(type(frame))
         frame = transform(frame)
+        print(type(frame))
         transformed_video[frame_idx] = frame
 
     print('Video length: {}'.format(transformed_video.shape[0]))
+    print(transformed_video)
+    print(transformed_video.shape)
 
     # feature extraction
     features = get_features(transformed_video, frame_batch_size=args.frame_batch_size, device=device)
+    print(features.shape)
     features = torch.unsqueeze(features, 0)  # batch size 1
+    print(features)
 
     # quality prediction using VSFA
     model = VSFA()
